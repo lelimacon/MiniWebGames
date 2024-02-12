@@ -1,0 +1,57 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: black;
+    overflow: hidden;
+    font-size: 100px;
+    color: white;
+    font-family: 'Sixtyfour';
+}
+
+#ball {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+}
+
+#net {
+    position: absolute;
+    left: calc(50% - 10px);
+    height: 100%;
+    border-left: 20px dashed white;
+}
+
+#scoreLeft {
+    position: absolute;
+    top: 20px;
+    right: calc(50% + 40px);
+}
+
+#scoreRight {
+    position: absolute;
+    top: 20px;
+    left: calc(50% + 40px);
+}
+
+
+#palletLeft {
+    position: absolute;
+    left: 40px;
+    width: 20px;
+    height: 140px;
+    background-color: white;
+}
+
+#palletRight {
+    position: absolute;
+    right: 40px;
+    width: 20px;
+    height: 140px;
+    background-color: white;
+}
